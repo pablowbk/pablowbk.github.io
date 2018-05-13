@@ -2,7 +2,7 @@ body {
     
 }
 header {
-    background-image: url(img/nathan-mcbride-229639-unsplash.jpg) no-repeat center center fixed;
+    background-image: url(img/nathan-mcbride-229639-unsplash.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
