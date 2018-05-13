@@ -2,10 +2,13 @@ body {
     
 }
 header {
-    background-image: url(img/nathan-mcbride-229639-unsplash.jpg);
-    height: 100vh;
+    background-image: url(img/nathan-mcbride-229639-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-position: center;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
