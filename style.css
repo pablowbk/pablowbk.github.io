@@ -2,12 +2,6 @@ body {
 
 }
 header {
-    background-image: url(img/dsc_1288.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
