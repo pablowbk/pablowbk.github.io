@@ -1,8 +1,52 @@
-body {
-
+* {
+  box-sizing: border-box;
 }
-header {
-    height: 100vh;
+
+body {
+  margin: 0 auto;
+}
+
+ion-icon {
+  font-size: 100px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size: 48px;
+}
+
+.wrapper > div {
+  text-align: center;
+}
+
+.iam {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.webdev {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.photo {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.threesixty {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.iconset {
+  display: none;
+}
+
+footer {
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -16,17 +60,4 @@ header {
     font-size: 2em;
     text-transform: uppercase;
     font-family: Archivo Black;
-}
-
-.btn-info {
-    background: rgba(63, 63, 63, 0.72);
-    border: 0px;
-    border-radius: 5px;
-    font-size: 1.5em;
-    font-family: roboto;
-    color: rgb(252, 251, 255);*/
-}
-
-.button {
-    border: none;
 }
