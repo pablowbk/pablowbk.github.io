@@ -59,10 +59,11 @@ main > * {
 
 ion-icon:hover {
   transform: translateY(5px);
+  cursor: pointer;
 }
 
 .iam:hover {
-  transform: translateY(-10px);
+  
 }
 
 footer {
