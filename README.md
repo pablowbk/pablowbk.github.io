@@ -2,7 +2,7 @@
 
 ## Personal Portfolio
 
-**Front End Developer
+**Front End Developer**
 
 ### [Twitter] (https://twitter.com/wbkpablo)
 ### [FreeCodeCamp] (https://www.freecodecamp.org/pablowbk)
